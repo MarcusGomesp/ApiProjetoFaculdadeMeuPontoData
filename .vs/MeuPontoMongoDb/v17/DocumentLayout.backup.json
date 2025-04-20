@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\service\\registroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\service\\registroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\interface\\iregistroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\interface\\iregistroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\service\\perfilservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\service\\perfilservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\interface\\icadastroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\interface\\icadastroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\interface\\iperfilservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\interface\\iperfilservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\service\\cadastroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\service\\cadastroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\models\\dto\\imagemuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\models\\dto\\imagemuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1003,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRegistroService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Interface\\IRegistroService.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Interface\\IRegistroService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Interface\\IRegistroService.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Interface\\IRegistroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T18:19:22.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistroService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Service\\RegistroService.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Service\\RegistroService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Service\\RegistroService.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Service\\RegistroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T18:12:57.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistroController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Controllers\\RegistroController.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Controllers\\RegistroController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Controllers\\RegistroController.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Controllers\\RegistroController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAIAwwDEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T18:03:47.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PerfilController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Controllers\\PerfilController.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Controllers\\PerfilController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Controllers\\PerfilController.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Controllers\\PerfilController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswEkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T17:30:50.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PerfilService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Service\\PerfilService.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Service\\PerfilService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Service\\PerfilService.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Service\\PerfilService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T17:27:21.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICadastroService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Interface\\ICadastroService.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Interface\\ICadastroService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Interface\\ICadastroService.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Interface\\ICadastroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T17:53:51.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Program.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Program.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCkAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T17:34:23.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ImagemUploadDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Models\\DTO\\ImagemUploadDto.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Models\\DTO\\ImagemUploadDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Models\\DTO\\ImagemUploadDto.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Models\\DTO\\ImagemUploadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T17:32:09.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPerfilService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Interface\\IPerfilService.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Interface\\IPerfilService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Interface\\IPerfilService.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Interface\\IPerfilService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T17:53:38.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CadastroService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Service\\CadastroService.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Service\\CadastroService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Service\\CadastroService.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Service\\CadastroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T17:26:59.733Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 414,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
