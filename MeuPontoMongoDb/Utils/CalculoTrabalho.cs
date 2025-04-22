@@ -7,18 +7,19 @@ namespace MeuPontoMongoDb.Utils
     {
 
 
-      
+        // obter data/hora UTC para o horário de Brasília
         public static DateTime ObterHorarioBrasilia()
         {
             TimeZoneInfo zonaBrasilia = TZConvert.GetTimeZoneInfo("E. South America Standard Time");
             return TimeZoneInfo.ConvertTime(DateTime.UtcNow, TimeZoneInfo.Utc, zonaBrasilia);
         }
 
+        // Converte a data/hora UTC para o horário de Brasília
         public static DateTime ConverterParaHorarioBrasilia(DateTime dataHora)
         {
             TimeZoneInfo zonaBrasilia = TZConvert.GetTimeZoneInfo("E. South America Standard Time");
 
-            // Verifique se a data/hora já está no horário de Brasília para evitar conversões desnecessárias
+            // Verifica data/hora UTC ou local
             if (dataHora.Kind == DateTimeKind.Utc)
             {
                 return TimeZoneInfo.ConvertTimeFromUtc(dataHora, zonaBrasilia);
@@ -28,7 +29,7 @@ namespace MeuPontoMongoDb.Utils
                 return TimeZoneInfo.ConvertTime(dataHora, zonaBrasilia);
             }
 
-            return dataHora; // Já está no fuso correto
+            return dataHora; 
         }
     }
 

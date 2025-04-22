@@ -4,8 +4,6 @@ namespace MeuPontoMongoDb.Utils
 {
     public class PasswordHasher
     {
-
-
         //criptografia de Senha
         public static string HashPassword(string password)
         {

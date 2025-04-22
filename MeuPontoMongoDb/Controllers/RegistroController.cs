@@ -56,9 +56,6 @@ namespace MeuPontoMongoDb.Controllers
             }
         }
 
-
-
-
         // POST: api/registro
         [HttpPost]
         public async Task<ActionResult<Registro>> PostRegistro([FromBody] Registro registro)

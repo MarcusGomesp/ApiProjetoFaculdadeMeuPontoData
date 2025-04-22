@@ -316,5 +316,116 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "MeuPontoMongoDb.Controllers.SolicitacaoController",
+    "Method": "CriarSolicitacao",
+    "RelativePath": "api/Solicitacao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "solicitacao",
+        "Type": "MeuPontoMongoDb.Models.Solicitacao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeuPontoMongoDb.Controllers.SolicitacaoController",
+    "Method": "ListarTodas",
+    "RelativePath": "api/Solicitacao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeuPontoMongoDb.Controllers.SolicitacaoController",
+    "Method": "Editar",
+    "RelativePath": "api/Solicitacao/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "solicitacao",
+        "Type": "MeuPontoMongoDb.Models.Solicitacao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeuPontoMongoDb.Controllers.SolicitacaoController",
+    "Method": "Deletar",
+    "RelativePath": "api/Solicitacao/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeuPontoMongoDb.Controllers.SolicitacaoController",
+    "Method": "Aprovar",
+    "RelativePath": "api/Solicitacao/aprovar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeuPontoMongoDb.Controllers.SolicitacaoController",
+    "Method": "Rejeitar",
+    "RelativePath": "api/Solicitacao/rejeitar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeuPontoMongoDb.Controllers.SolicitacaoController",
+    "Method": "ListarPorUsuario",
+    "RelativePath": "api/Solicitacao/usuario/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

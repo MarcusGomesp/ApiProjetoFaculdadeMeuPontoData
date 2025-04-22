@@ -14,12 +14,13 @@ namespace MeuPontoMongoDb.Service
             _context = context;
         }
 
-
+        // Listar todos os perfis
         public async Task<IEnumerable<Perfil>> ListarTodosAsync()
         {
             return await _context.Perfis.ToListAsync();
         }
 
+        // Buscar perfil por ID
         public Task<Perfil?> BuscarPorIdAsync(int userId)
         {
             var perfil = _context.Perfis.FirstOrDefaultAsync(p => p.UserId == userId);
@@ -28,7 +29,7 @@ namespace MeuPontoMongoDb.Service
             return perfil;
         }
 
-
+        // Criar ou atualizar imagem de perfil
         public async Task<string> CriarOuAtualizarImagemPerfilAsync(int userId, string imagemBase64)
         {
             var perfil = await _context.Perfis.FirstOrDefaultAsync(p => p.UserId == userId);
@@ -52,10 +53,11 @@ namespace MeuPontoMongoDb.Service
             return perfil.UrlProfilePic;
         }
 
+        // Deletar imagem de perfil
         public async Task<bool> DeletarImagemPerfilAsync(int userId)
         {
             var perfil = await _context.Perfis.FindAsync(userId);
-            
+
             if (perfil == null)
                 return false;
 

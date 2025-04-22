@@ -41,6 +41,7 @@ namespace MeuPontoMongoDb.Controllers
         }
 
 
+        // GET: api/usuario/email
         [HttpGet("usuario")]
         public async Task<ActionResult> GetCadastroPorEmail([FromQuery] string email)
         {
@@ -95,27 +96,7 @@ namespace MeuPontoMongoDb.Controllers
             }
         }
 
-
-
-        //// PUT: api/cadastro/5
-        //[HttpPut("{userId}")]
-        //public async Task<IActionResult> PutCadastro(int userId, Cadastro cadastro)
-        //{
-        //    if (userId != cadastro.UserId)
-        //    {
-        //        return BadRequest();
-        //    }
-
-        //    var atualizado = await _cadastroService.AtualizarAsync(cadastro);
-
-        //    if (!atualizado)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return NoContent();
-        //}
-
+   
         // DELETE: api/cadastro/5
         [HttpDelete("{userId}")]
         public async Task<IActionResult> DeleteCadastro([FromRoute] int userId)

@@ -18,6 +18,7 @@ namespace MeuPontoMongoDb.Controllers
         }
 
 
+        // Get api/perfil
         [HttpGet]
         public async Task<IActionResult> ObterPerfil()
         {
@@ -31,6 +32,8 @@ namespace MeuPontoMongoDb.Controllers
                 return BadRequest(new { mensagem = $"Erro ao obter perfil: {e.Message}" });
             }
         }
+
+        // Get api/perfil/Id
         [HttpGet("{userId}")]
         public async Task<IActionResult> ObterPerfilPorId(int userId)
         {
@@ -47,6 +50,8 @@ namespace MeuPontoMongoDb.Controllers
             }
         }
 
+
+        // POST api/perfil/Imagem/{userId}
         [HttpPost("Imagem/{userId}")]
         public async Task<IActionResult> CriarOuAtualizarImagemPerfil(int userId, [FromBody] ImagemUploadDto dto)
         {
@@ -63,6 +68,8 @@ namespace MeuPontoMongoDb.Controllers
             }
         }
 
+
+        // DELETE api/perfil/Imagem/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletarImagemPerfil(int id)
         {

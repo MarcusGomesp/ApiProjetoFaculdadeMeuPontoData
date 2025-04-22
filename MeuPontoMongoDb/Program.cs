@@ -22,6 +22,7 @@ namespace MeuPontoMongoDb
             builder.Services.AddScoped<ICadastroService, CadastroService>();
             builder.Services.AddScoped<IRegistroService, RegistroService>();
             builder.Services.AddScoped<IPerfilService, PerfilService>();
+            builder.Services.AddScoped<ISolicitacaoService, SolicitacaoService>();
 
 
 
@@ -73,7 +74,7 @@ namespace MeuPontoMongoDb
             using (var scope = app.Services.CreateScope())
             {
                 var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-                dbContext.Database.Migrate(); // Aplica as migrações pendentes no banco de dados
+                dbContext.Database.Migrate(); 
             }
 
             // Rodar a aplicação

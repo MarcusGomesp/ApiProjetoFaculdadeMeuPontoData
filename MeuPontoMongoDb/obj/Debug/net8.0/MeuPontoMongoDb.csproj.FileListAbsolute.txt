@@ -180,3 +180,4 @@ C:\Users\user\Desktop\MeuPontoMongoDb\MeuPontoMongoDb\MeuPontoMongoDb\obj\Debug\
 C:\Users\user\Desktop\MeuPontoMongoDb\MeuPontoMongoDb\MeuPontoMongoDb\obj\Debug\net8.0\MeuPontoMongoDb.pdb
 C:\Users\user\Desktop\MeuPontoMongoDb\MeuPontoMongoDb\MeuPontoMongoDb\obj\Debug\net8.0\MeuPontoMongoDb.genruntimeconfig.cache
 C:\Users\user\Desktop\MeuPontoMongoDb\MeuPontoMongoDb\MeuPontoMongoDb\obj\Debug\net8.0\ref\MeuPontoMongoDb.dll
+C:\Users\user\Desktop\MeuPontoMongoDb\MeuPontoMongoDb\MeuPontoMongoDb\obj\Debug\net8.0\MeuPontoMongoDb.sourcelink.json

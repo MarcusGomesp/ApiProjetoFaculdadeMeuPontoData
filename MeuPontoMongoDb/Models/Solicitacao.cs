@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using MeuPontoMongoDb.Models.Enum;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
@@ -11,7 +12,6 @@ namespace MeuPontoMongoDb.Models
         [Column("id_solicitacao")]
         public int IdSolicitacao { get; set; }
 
-
         [Column("user_id")]
         public int UserId { get; set; }
 
@@ -20,20 +20,11 @@ namespace MeuPontoMongoDb.Models
         public int IdRegistro { get; set; }
 
 
-        [Column("nome")]
-        public string? Nome { get; set; }
-
-
-        [Column("email")]
-        public string? Email { get; set; }
-
-
         [Column("horario")]
         public TimeSpan Horario { get; set; }
 
-
         [Column("status")]
-        public string? Status { get; set; }
+        public StatusSolicitacaoEnum Status { get; set; }
 
 
         [Column("observacao")]

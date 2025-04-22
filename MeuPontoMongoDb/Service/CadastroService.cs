@@ -52,7 +52,6 @@ namespace MeuPontoMongoDb.Service
             };
         }
 
-
         // Criar um novo cadastro
         public async Task<Cadastro> CriarAsync(Cadastro cadastro)
         {
@@ -62,19 +61,18 @@ namespace MeuPontoMongoDb.Service
             if (cadastroExistente != null)
                 throw new Exception("Cadastro já existe com o mesmo CPF ou Email.");
 
-            // Verificar e corrigir o 'Kind' da data antes de salvar no banco
             if (cadastro.BancoHoras != null)
             {
                 cadastro.BancoHoras.Data = cadastro.BancoHoras.Data.Kind == DateTimeKind.Unspecified
-                    ? DateTime.SpecifyKind(cadastro.BancoHoras.Data, DateTimeKind.Utc) // Garantir que seja UTC
+                    ? DateTime.SpecifyKind(cadastro.BancoHoras.Data, DateTimeKind.Utc) 
                     : cadastro.BancoHoras.Data.ToUniversalTime();
             }
-            cadastro.Senha = PasswordHasher.HashPassword(cadastro.Senha); // Hash da senha antes de salvar
+            cadastro.Senha = PasswordHasher.HashPassword(cadastro.Senha); 
 
             _context.Cadastros.Add(cadastro);
             await _context.SaveChangesAsync();
 
-            // Continuar com a criação do perfil e banco de horas...
+           
             return cadastro;
         }
 
@@ -83,7 +81,7 @@ namespace MeuPontoMongoDb.Service
         public async Task<object> LoginAsync(Login login)
         {
             var user = await _context.Cadastros
-                .Include(c => c.Perfil) // importante para trazer a imagem!
+                .Include(c => c.Perfil) 
                 .FirstOrDefaultAsync(c => c.Email == login.Email);
 
             if (user == null)
@@ -108,8 +106,6 @@ namespace MeuPontoMongoDb.Service
                 urlProfilePic = user.Perfil?.UrlProfilePic 
             };
         }
-
-
 
         // Deletar cadastro
         public async Task<bool> DeletarAsync(int userId)

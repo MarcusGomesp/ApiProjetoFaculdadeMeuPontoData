@@ -1,5 +1,6 @@
 ﻿using MeuPontoMongoDb.Models;
 using Microsoft.EntityFrameworkCore;
+using MeuPontoMongoDb.Models.Enum;
 
 namespace MeuPontoMongoDb.Database
 {
@@ -18,9 +19,6 @@ namespace MeuPontoMongoDb.Database
         public DbSet<Solicitacao> Solicitacoes { get; set; } = null!;
 
 
-
-
-        //funciona SQLServer Local
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
@@ -63,6 +61,11 @@ namespace MeuPontoMongoDb.Database
                 .HasForeignKey(s => s.IdRegistro)
                 .OnDelete(DeleteBehavior.Restrict)
                 .HasConstraintName("FK_Solicitacao_Registro");
+
+            modelBuilder.Entity<Solicitacao>()
+               .Property(s => s.Status)
+               .HasConversion<string>()
+               .HasColumnName("status");
 
         }
     }

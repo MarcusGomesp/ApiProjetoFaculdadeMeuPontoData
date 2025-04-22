@@ -34,7 +34,6 @@ namespace MeuPontoMongoDb.Service
                 .ToListAsync();
         }
 
-
         public async Task<int?> BuscarIdRegistroPorEmailAsync(string email)
         {
             var usuario = await _context.Cadastros.FirstOrDefaultAsync(c => c.Email == email);
@@ -44,7 +43,7 @@ namespace MeuPontoMongoDb.Service
 
             var registro = await _context.Registros
                 .Where(r => r.UserId == usuario.UserId)
-                .OrderByDescending(r => r.DataInicio) // Opcional: pegar o mais recente
+                .OrderByDescending(r => r.DataInicio) 
                 .FirstOrDefaultAsync();
 
             if (registro == null)
@@ -52,8 +51,6 @@ namespace MeuPontoMongoDb.Service
 
             return registro.IdRegistro;
         }
-
-
 
         // Criar um novo registro
         public async Task<Registro> CriarAsync(Registro registro)
@@ -69,7 +66,7 @@ namespace MeuPontoMongoDb.Service
             if (registro.Fim.HasValue)
                 registro.Fim = CalculoTrabalho.ConverterParaHorarioBrasilia(registro.Fim.Value);
 
-            registro.CalcularHorasExtras(); // Calcula TotalTrabalhado e HorasExtras
+            registro.CalcularHorasExtras(); 
 
             await _context.Registros.AddAsync(registro);
             await _context.SaveChangesAsync();
@@ -108,8 +105,6 @@ namespace MeuPontoMongoDb.Service
             return pontoExistente;
         }
 
-
-
         // Deletar um registro
         public async Task<bool> DeletarAsync(int id)
         {
@@ -123,6 +118,6 @@ namespace MeuPontoMongoDb.Service
             return true;
         }
 
- 
+
     }
 }

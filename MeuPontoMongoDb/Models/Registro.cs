@@ -28,13 +28,13 @@ namespace MeuPontoMongoDb.Models
         public DateTime? Fim { get; set; }
         
         [Column("total_hora")]
-        public TimeSpan? TotalHora { get; set; } //total de horas trabalhadas no dia
+        public TimeSpan? TotalHora { get; set; } 
        
         [Column("hora_extra")]
         public TimeSpan? HorarioExtra { get; set; }
 
         [Column("qtde_batidas")]
-        public int QtdeBatidas { get; set; } //batidas 
+        public int QtdeBatidas { get; set; } 
         
         [ForeignKey("UserId")]
         [JsonIgnore]
@@ -43,7 +43,7 @@ namespace MeuPontoMongoDb.Models
         [JsonIgnore]
         public ICollection<Solicitacao>? Solicitacoes { get; set; }
 
-
+        /// Método para calcular as horas extras
         public void CalcularHorasExtras()
         {
             if (DataInicio != null && Fim != null)
