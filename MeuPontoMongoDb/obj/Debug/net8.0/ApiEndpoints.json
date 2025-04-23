@@ -277,6 +277,22 @@
   },
   {
     "ContainingType": "MeuPontoMongoDb.Controllers.RegistroController",
+    "Method": "ObterBancoDeHoras",
+    "RelativePath": "api/Registro/banco-horas/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeuPontoMongoDb.Controllers.RegistroController",
     "Method": "BuscarIdRegistroPorEmail",
     "RelativePath": "api/Registro/buscar-id-registro-por-email",
     "HttpMethod": "GET",
@@ -289,6 +305,16 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeuPontoMongoDb.Controllers.RegistroController",
+    "Method": "ObterRegistrosParaGestao",
+    "RelativePath": "api/Registro/gestao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -395,6 +421,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeuPontoMongoDb.Controllers.SolicitacaoController",
+    "Method": "ListarParaGestao",
+    "RelativePath": "api/Solicitacao/gestao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MeuPontoMongoDb.Models.DTO.SolicitarGestaoDTO, MeuPontoMongoDb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "MeuPontoMongoDb.Controllers.SolicitacaoController",

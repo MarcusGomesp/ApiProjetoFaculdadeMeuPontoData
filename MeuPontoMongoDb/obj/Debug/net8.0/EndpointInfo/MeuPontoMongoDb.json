@@ -437,6 +437,18 @@
         }
       }
     },
+    "/api/Registro/gestao": {
+      "get": {
+        "tags": [
+          "Registro"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Registro/buscar-id-registro-por-email": {
       "get": {
         "tags": [
@@ -448,6 +460,29 @@
             "in": "query",
             "schema": {
               "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Registro/banco-horas/{userId}": {
+      "get": {
+        "tags": [
+          "Registro"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
@@ -575,6 +610,44 @@
         "responses": {
           "200": {
             "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Solicitacao/gestao": {
+      "get": {
+        "tags": [
+          "Solicitacao"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SolicitarGestaoDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SolicitarGestaoDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SolicitarGestaoDTO"
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -848,6 +921,31 @@
           "observacao": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SolicitarGestaoDTO": {
+        "type": "object",
+        "properties": {
+          "idSolicitacao": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nomeUsuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "horario": {
+            "type": "string",
+            "format": "date-span"
+          },
+          "observacao": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "$ref": "#/components/schemas/StatusSolicitacaoEnum"
           }
         },
         "additionalProperties": false

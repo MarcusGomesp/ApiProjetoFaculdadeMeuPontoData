@@ -3,6 +3,7 @@ using MeuPontoMongoDb.Models;
 using Microsoft.EntityFrameworkCore;
 using MeuPontoMongoDb.Database;
 using MeuPontoMongoDb.Interface;
+using MeuPontoMongoDb.Models.DTO;
 
 namespace MeuPontoMongoDb.Service
 {
@@ -41,6 +42,22 @@ namespace MeuPontoMongoDb.Service
                 .Include(s => s.Registro)
                 .ToListAsync();
         }
+
+        // Listar solicitações para gestão
+        public async Task<IEnumerable<SolicitarGestaoDTO>> ListarGestaoAsync()
+        {
+            return await _context.Solicitacoes
+                .Include(s => s.Usuario)
+                .Select(s => new SolicitarGestaoDTO
+                {
+                    IdSolicitacao = s.IdSolicitacao,
+                    NomeUsuario = s.Usuario != null ? s.Usuario.Nome : "Desconhecido",
+                    Horario = s.Horario,
+                    Observacao = s.Observacao,
+                    Status = s.Status
+                })
+                .ToListAsync();
+        } //
 
         // Atualizar status da solicitação
         public async Task AtualizarStatusAsync(int id, StatusSolicitacaoEnum novoStatus)

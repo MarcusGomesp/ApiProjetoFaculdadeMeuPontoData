@@ -9,6 +9,7 @@ namespace MeuPontoMongoDb.Interface
         Task<List<Registro>> BuscarTodosPorUsuarioAsync(int id);
         Task<int?> BuscarIdRegistroPorEmailAsync(string email);
         Task<Registro> CriarAsync(Registro registro);
+        Task<TimeSpan> CalcularTotalHorasExtrasPorUsuarioAsync(int userId);
         Task<Registro> AtualizarAsync(int id, Registro registro);
         Task<bool> DeletarAsync(int id);
     }

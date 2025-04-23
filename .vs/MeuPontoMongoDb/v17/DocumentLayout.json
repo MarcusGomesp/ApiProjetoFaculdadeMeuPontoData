@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\service\\registroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\service\\registroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\meupontomongodb.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\meupontomongodb.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\service\\solicitacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\service\\solicitacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\models\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\models\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\utils\\datahorahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\utils\\datahorahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\interface\\iregistroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\interface\\iregistroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\utils\\calculotrabalho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\utils\\calculotrabalho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\models\\bancohoras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\models\\bancohoras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\models\\dto\\solicitargestaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\models\\dto\\solicitargestaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\interface\\isolicitacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\interface\\isolicitacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\controllers\\solicitacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\controllers\\solicitacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|c:\\users\\user\\desktop\\meupontomongodb\\meupontomongodb\\meupontomongodb\\service\\cadastroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C88C76-07CD-4DAF-8000-4C041F13C598}|MeuPontoMongoDb\\MeuPontoMongoDb.csproj|solutionrelative:meupontomongodb\\service\\cadastroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1003,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,29 +86,155 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Program.cs",
-              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Program.cs",
-              "RelativeToolTip": "MeuPontoMongoDb\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "IRegistroService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Interface\\IRegistroService.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Interface\\IRegistroService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Interface\\IRegistroService.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Interface\\IRegistroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T22:34:50.384Z",
+              "WhenOpened": "2025-04-23T22:36:23.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataHoraHelper.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Utils\\DataHoraHelper.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Utils\\DataHoraHelper.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Utils\\DataHoraHelper.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Utils\\DataHoraHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T22:33:17.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CalculoTrabalho.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Utils\\CalculoTrabalho.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Utils\\CalculoTrabalho.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Utils\\CalculoTrabalho.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Utils\\CalculoTrabalho.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T22:33:12.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BancoHoras.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Models\\BancoHoras.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Models\\BancoHoras.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Models\\BancoHoras.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Models\\BancoHoras.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T22:26:48.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistroController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Controllers\\RegistroController.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Controllers\\RegistroController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Controllers\\RegistroController.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Controllers\\RegistroController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowEIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T22:04:32.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ISolicitacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Interface\\ISolicitacaoService.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Interface\\ISolicitacaoService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Interface\\ISolicitacaoService.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Interface\\ISolicitacaoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T02:46:15.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SolicitacaoController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Controllers\\SolicitacaoController.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Controllers\\SolicitacaoController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Controllers\\SolicitacaoController.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Controllers\\SolicitacaoController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwDMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T02:43:09.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SolicitarGestaoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Models\\DTO\\SolicitarGestaoDTO.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Models\\DTO\\SolicitarGestaoDTO.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Models\\DTO\\SolicitarGestaoDTO.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Models\\DTO\\SolicitarGestaoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T02:42:37.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Registro.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Models\\Registro.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Models\\Registro.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Models\\Registro.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Models\\Registro.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwCcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T02:41:22.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MeuPontoMongoDb.http",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb.http",
-              "RelativeDocumentMoniker": "MeuPontoMongoDb\\MeuPontoMongoDb.http",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb.http",
-              "RelativeToolTip": "MeuPontoMongoDb\\MeuPontoMongoDb.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-04-22T22:34:48.625Z",
+              "Title": "SolicitacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Service\\SolicitacaoService.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Service\\SolicitacaoService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Service\\SolicitacaoService.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Service\\SolicitacaoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T02:39:25.097Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistroService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Service\\RegistroService.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Service\\RegistroService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Service\\RegistroService.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Service\\RegistroService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T00:16:47.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CadastroService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Service\\CadastroService.cs",
+              "RelativeDocumentMoniker": "MeuPontoMongoDb\\Service\\CadastroService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MeuPontoMongoDb\\MeuPontoMongoDb\\MeuPontoMongoDb\\Service\\CadastroService.cs",
+              "RelativeToolTip": "MeuPontoMongoDb\\Service\\CadastroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T00:16:05.815Z"
             }
           ]
         },

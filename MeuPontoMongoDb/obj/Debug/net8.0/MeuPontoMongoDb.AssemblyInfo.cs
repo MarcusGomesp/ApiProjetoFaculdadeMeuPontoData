@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MeuPontoMongoDb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26e9095de844e22d9edd1289deac8bca0e5c24ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+319469773c7bcc270783e3bb4807999e095b2951")]
 [assembly: System.Reflection.AssemblyProductAttribute("MeuPontoMongoDb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MeuPontoMongoDb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

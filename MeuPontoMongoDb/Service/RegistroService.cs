@@ -22,7 +22,10 @@ namespace MeuPontoMongoDb.Service
         // Listar todos os registros
         public async Task<IEnumerable<Registro>> ListarTodosAsync()
         {
-            return await _context.Registros.ToListAsync();
+            return await _context.Registros
+                    .Include(r => r.Usuario)
+                    .ThenInclude(u => u.Perfil)
+                    .ToListAsync();
         }
 
         // Listar por ID
@@ -34,6 +37,7 @@ namespace MeuPontoMongoDb.Service
                 .ToListAsync();
         }
 
+        // Buscar ID do registro por e-mail
         public async Task<int?> BuscarIdRegistroPorEmailAsync(string email)
         {
             var usuario = await _context.Cadastros.FirstOrDefaultAsync(c => c.Email == email);
@@ -50,7 +54,7 @@ namespace MeuPontoMongoDb.Service
                 throw new Exception("Registro não encontrado para esse usuário.");
 
             return registro.IdRegistro;
-        }
+        }  
 
         // Criar um novo registro
         public async Task<Registro> CriarAsync(Registro registro)
@@ -73,6 +77,22 @@ namespace MeuPontoMongoDb.Service
 
             return registro;
 
+        }
+
+        public async Task<TimeSpan> CalcularTotalHorasExtrasPorUsuarioAsync(int userId)
+        {
+            var registros = await _context.Registros
+                .Where(r => r.UserId == userId && r.HorarioExtra.HasValue)
+                .ToListAsync();
+
+            var total = TimeSpan.Zero;
+
+            foreach (var registro in registros)
+            {
+                total += registro.HorarioExtra ?? TimeSpan.Zero;
+            }
+
+            return total;
         }
 
 

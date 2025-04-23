@@ -3,6 +3,8 @@ using MeuPontoMongoDb.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MeuPontoMongoDb.Interface;
+using Microsoft.EntityFrameworkCore;
+using MeuPontoMongoDb.Models.DTO;
 
 namespace MeuPontoMongoDb.Controllers
 {
@@ -41,6 +43,15 @@ namespace MeuPontoMongoDb.Controllers
             var solicitacoes = await _solicitacaoService.ListarTodasAsync();
             return Ok(solicitacoes);
         }
+
+        //GET : api/gestao 
+        [HttpGet("gestao")]
+        public async Task<ActionResult<IEnumerable<SolicitarGestaoDTO>>> ListarParaGestao()
+        {
+            var solicitacoes = await _solicitacaoService.ListarGestaoAsync();
+            return Ok(solicitacoes);
+        }
+
 
         // GET: api/solicitacao/usuario/5
         [HttpGet("usuario/{userId}")]

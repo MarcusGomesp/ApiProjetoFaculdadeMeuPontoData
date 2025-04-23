@@ -41,7 +41,30 @@ namespace MeuPontoMongoDb.Controllers
             return Ok(registros);
         }
 
+        [HttpGet("gestao")]
+        public async Task<IActionResult> ObterRegistrosParaGestao()
+        {
+            try
+            {
+                var registros = await _registroService.ListarTodosAsync();
 
+                var resultado = registros.Select(r => new
+                {
+                    nome = r.Usuario?.Nome ?? "Desconhecido",
+                    fotoBase64 = r.Usuario?.Perfil?.UrlProfilePic,
+                    horasExtras = r.HorarioExtra?.ToString(@"hh\:mm") ?? "00:00",
+                    qtdeBatidas = r.QtdeBatidas
+                });
+
+                return Ok(resultado);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = "Erro ao buscar dados de gerenciamento", erro = ex.Message });
+            }
+        }
+
+        // Bucar ID do registro por e-mail
         [HttpGet("buscar-id-registro-por-email")]
         public async Task<IActionResult> BuscarIdRegistroPorEmail([FromQuery] string email)
         {
@@ -72,6 +95,21 @@ namespace MeuPontoMongoDb.Controllers
                 return BadRequest(new { message = innerMessage });
             }
         }
+
+        [HttpGet("banco-horas/{userId}")]
+        public async Task<IActionResult> ObterBancoDeHoras(int userId)
+        {
+            try
+            {
+                var totalHorasExtras = await _registroService.CalcularTotalHorasExtrasPorUsuarioAsync(userId);
+                return Ok(new { totalHorasExtras = totalHorasExtras.ToString(@"hh\:mm\:ss") });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { mensagem = "Erro ao calcular banco de horas", erro = ex.Message });
+            }
+        }
+
 
         // PUT: api/registro/id
         [HttpPut("{id}")]
