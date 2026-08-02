@@ -13,7 +13,7 @@ Aplicação prática de C# em um projeto acadêmico: uma **API RESTful para gere
 ## Tecnologias
 
 - **C#** / **ASP.NET Core**
-- **MongoDB** como banco de dados
+- **SQL Server** como banco de dados
 - Arquitetura em camadas (Controllers → Service → Interface → Database)
 
 ## Endpoints da API
