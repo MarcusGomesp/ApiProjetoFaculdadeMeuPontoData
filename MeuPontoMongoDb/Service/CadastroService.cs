@@ -10,10 +10,12 @@ namespace MeuPontoMongoDb.Service
     public class CadastroService : ICadastroService
     {
         private readonly AppDbContext _context;
+        private readonly ITokenService _tokenService;
 
-        public CadastroService(AppDbContext context)
+        public CadastroService(AppDbContext context, ITokenService tokenService)
         {
             _context = context;
+            _tokenService = tokenService;
         }
 
         // Listar todos os cadastros
@@ -96,9 +98,13 @@ namespace MeuPontoMongoDb.Service
                 .OrderByDescending(r => r.DataInicio)
                 .FirstOrDefaultAsync();
 
+            var (token, expiraEm) = _tokenService.GerarToken(user);
+
             return new
             {
                 mensagem = "Login realizado com sucesso.",
+                token,
+                expiraEm,
                 email = user.Email,
                 nome = user.Nome,
                 cadastroId = user.UserId,

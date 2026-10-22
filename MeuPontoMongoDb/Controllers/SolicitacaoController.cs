@@ -1,6 +1,7 @@
 ﻿using MeuPontoMongoDb.Models.Enum;
 using MeuPontoMongoDb.Models;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MeuPontoMongoDb.Interface;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +11,7 @@ namespace MeuPontoMongoDb.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class SolicitacaoController : ControllerBase
     {
         private readonly ISolicitacaoService _solicitacaoService;
