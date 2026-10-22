@@ -1,10 +1,12 @@
 # ⏱️ MeuPonto — Gestão de Banco de Horas
 
+[![build](https://github.com/MarcusGomesp/ApiProjetoFaculdadeMeuPontoData/actions/workflows/dotnet.yml/badge.svg)](https://github.com/MarcusGomesp/ApiProjetoFaculdadeMeuPontoData/actions/workflows/dotnet.yml)
+
 Aplicação prática de C# em um projeto acadêmico: uma **API RESTful para gerenciamento de banco de horas** dentro de uma empresa, com fluxo completo de solicitação e aprovação de ajustes de ponto.
 
 ## Funcionalidades
 
-- 🎯 Cadastro e autenticação de funcionários
+- 🎯 Cadastro e autenticação de funcionários com **JWT** (rotas protegidas por `[Authorize]`)
 - 🎯 Registro de horas trabalhadas (bater ponto)
 - 🎯 Controle de banco de horas, incluindo cálculo de horas extras
 - 🎯 Solicitação e acompanhamento de ajustes de horário
@@ -14,6 +16,7 @@ Aplicação prática de C# em um projeto acadêmico: uma **API RESTful para gere
 
 - **C#** / **ASP.NET Core**
 - **SQL Server** como banco de dados
+- **JWT Bearer** para autenticação e **BCrypt** para as senhas
 - Arquitetura em camadas (Controllers → Service → Interface → Database)
 
 ## Endpoints da API
@@ -60,6 +63,38 @@ Aplicação prática de C# em um projeto acadêmico: uma **API RESTful para gere
 | `PUT` | `/api/Solicitacao/aprovar/{id}` | Aprova uma solicitação |
 | `PUT` | `/api/Solicitacao/rejeitar/{id}` | Rejeita uma solicitação |
 | `DELETE` | `/api/Solicitacao/{id}` | Remove uma solicitação |
+
+## Autenticação
+
+Apenas o cadastro (`POST /api/Cadastro`) e o login (`POST /api/Cadastro/login`) são públicos. As demais rotas exigem um token JWT:
+
+1. Faça login e copie o campo `token` da resposta:
+   ```json
+   { "mensagem": "Login realizado com sucesso.", "token": "eyJhbGciOi...", "expiraEm": "2026-10-23T02:00:00Z", ... }
+   ```
+2. Envie o token no cabeçalho das próximas requisições:
+   ```
+   Authorization: Bearer eyJhbGciOi...
+   ```
+   No Swagger, use o botão **Authorize** e cole o token.
+
+Sem token (ou com token expirado), a API responde `401 Unauthorized`.
+
+## Rodando localmente
+
+As credenciais **não ficam no repositório**: são configuradas com o [User Secrets](https://learn.microsoft.com/aspnet/core/security/app-secrets) do .NET, que guarda os valores só na sua máquina.
+
+```bash
+git clone https://github.com/MarcusGomesp/ApiProjetoFaculdadeMeuPontoData.git
+cd ApiProjetoFaculdadeMeuPontoData/MeuPontoMongoDb
+
+dotnet user-secrets set "ConnectionStrings:SqlServerConnection" "<sua-connection-string>"
+dotnet user-secrets set "Jwt:Key" "<uma-chave-aleatoria-com-32-caracteres-ou-mais>"
+
+dotnet run
+```
+
+Em produção, use as variáveis de ambiente `ConnectionStrings__SqlServerConnection` e `Jwt__Key`.
 
 ## Capturas de tela
 

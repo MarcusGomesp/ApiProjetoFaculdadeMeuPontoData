@@ -2,12 +2,14 @@
 using MeuPontoMongoDb.Models.Imagem;
 using MeuPontoMongoDb.Utils;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MeuPontoMongoDb.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class PerfilController : ControllerBase
     {
 

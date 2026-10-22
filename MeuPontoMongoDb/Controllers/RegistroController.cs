@@ -3,12 +3,14 @@ using MeuPontoMongoDb.Models;
 using MeuPontoMongoDb.Models.DTO;
 using MeuPontoMongoDb.Service;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MeuPontoMongoDb.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class RegistroController : ControllerBase
     {
         private readonly IRegistroService _registroService;

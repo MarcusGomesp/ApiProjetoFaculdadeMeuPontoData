@@ -2,6 +2,7 @@
 using MeuPontoMongoDb.Models;
 using MeuPontoMongoDb.Models.Login;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,6 +10,7 @@ namespace MeuPontoMongoDb.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CadastroController : ControllerBase
     {
         private readonly ICadastroService _cadastroService;
@@ -59,6 +61,7 @@ namespace MeuPontoMongoDb.Controllers
 
         //POST: api/cadastro
         [HttpPost]
+        [AllowAnonymous]
         public async Task<ActionResult<Cadastro>> PostCadastro([FromBody] Cadastro cadastro)
         {
             try
@@ -76,6 +79,7 @@ namespace MeuPontoMongoDb.Controllers
 
         // POST: api/cadastro/login
         [HttpPost("login")]
+        [AllowAnonymous]
         public async Task<IActionResult> LoginAsync([FromBody] Login login)
         {
             try
